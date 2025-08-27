@@ -4,7 +4,7 @@ metadata:
   name: llmops-app
   labels:
     app: llmops
-specs:
+spec:
   replicas: 1
   selector:
     matchLabels:
