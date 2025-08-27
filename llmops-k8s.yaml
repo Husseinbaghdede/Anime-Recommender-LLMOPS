@@ -30,9 +30,10 @@ metadata:
   name: llmops-service
 spec:
   type: LoadBalancer
-  selector: 
+  selector:
     app: llmops
   ports:
-    protocol: TCP
-    port: 80
-    targetPort: 8501
+    - name: web
+      protocol: TCP
+      port: 80
+      targetPort: 8501
