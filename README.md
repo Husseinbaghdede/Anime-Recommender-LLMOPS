@@ -241,6 +241,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **HuggingFace**: For pre-trained embedding models
 - **ChromaDB**: For efficient vector storage and retrieval
 
----
 
-**Built with ❤️ for anime enthusiasts by the development team**
